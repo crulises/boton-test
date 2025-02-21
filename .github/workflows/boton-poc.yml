@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Corriendo boton
-        uses: crulises/boton@v0.0.1
+        uses: crulises/boton@v0.0.2
         with:
           llm_endpoint: "https://esta-es-una-url-para-una-api.com/review"
           api_key: ${{ secrets.LLM_API_KEY }}
