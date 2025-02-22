@@ -1,0 +1,7 @@
+prompts:
+  - prompt: "Sos un experto en SQL ..."
+    tipo: "sql"
+  - prompt: "Sos un experto en Python ..."
+    tipo: "py"
+  - prompt: "Sos un experto en Databricks primero separa los inputs en sql y py"
+    tipo: "ipynb"
