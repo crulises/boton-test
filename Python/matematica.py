@@ -11,7 +11,7 @@ def multiplicacion(a, b):
     return a * b
 
 def division(a, b):
-    """Divide dos valores"""
+    """Divide valores"""
     if b == 0:
         return "Error: División por cero no permitida"
     return a / b
